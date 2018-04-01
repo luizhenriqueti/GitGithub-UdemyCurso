@@ -20,3 +20,7 @@ para passar para todos os repositos usa o global.
 para inicializar um diretorio para o git preciso usar o comando "git.init".
 
 comando "git status" me fala o branch que estou e se tenho arquivos para comitar.
+
+OQUE É UM COMMITE?
+é o mesmo que falar para pegar todos arquivos do repositorio e criar uma imagem deles(snapshot, uma versão).
+comando é: git commit -m "mensagem"

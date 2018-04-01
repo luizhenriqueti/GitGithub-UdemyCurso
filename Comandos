@@ -10,3 +10,6 @@ git status(mostra o branch,mostra o status do arquivos)
 
 iniciar o git no diretorio:
 git.init
+
+comite:
+git commit -m "mensagem"
