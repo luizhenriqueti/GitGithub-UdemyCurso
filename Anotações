@@ -21,6 +21,21 @@ para inicializar um diretorio para o git preciso usar o comando "git.init".
 
 comando "git status" me fala o branch que estou e se tenho arquivos para comitar.
 
+---------------------------------
 OQUE É UM COMMITE?
 é o mesmo que falar para pegar todos arquivos do repositorio e criar uma imagem deles(snapshot, uma versão).
 comando é: git commit -m "mensagem"
+o git em si é o comando que faz o versionamento(snapshot).
+---------------------------------
+
+comando:"git log" mostra o author, data, mensagem do commit.
+comando: "git log --decorate" mostra tudo de log e mostra os branchs
+comando: git log --autor="nome" mostra os commits deste autor
+comando: "git shortlog" mostra os autores, quantos comites fizeram e quais eles foram(mensurar a parte de contibuinte)
+comando: "git shortlog -sn" mostra so a quantidade de comites e o nome de quem comitou.
+
+--------------------------------
+como ver as mudanças antes do git?
+git diff mostra oque foi alterado antes de fazer o commit.
+--------------------------------
+
