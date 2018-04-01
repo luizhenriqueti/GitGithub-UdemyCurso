@@ -1,0 +1,22 @@
+O git foi criado pelo Linus Torvalds.
+
+git é diferente de github!
+
+----------------------------
+OQUE É GIT?
+sistema de controle de versão
+
+OQUE É GITHUB?
+local na web que você consegue colocar seu projetos versionados em git.
+-----------------------------
+
+o git guarda informações em 3 lugares: git config(sistema como um todo-usuario-projeto especifico do repositorio).
+
+para passar para todos os repositos usa o global.
+(git config --global user.name "nome")
+(git config --global user.email "email@mail.com")
+(git config --global core.editor comandoeditor)se não definir vai usar o vim
+
+para inicializar um diretorio para o git preciso usar o comando "git.init".
+
+comando "git status" me fala o branch que estou e se tenho arquivos para comitar.

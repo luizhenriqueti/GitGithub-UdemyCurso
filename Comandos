@@ -1,0 +1,12 @@
+como configurar o git:
+(git config --global user.name "nome")
+(git config --global user.email email@mail.com)
+
+pegar informações do git:
+git config user.name(so nome)
+git config user.email(so email)
+git config --list(tudo)
+git status(mostra o branch,mostra o status do arquivos)
+
+iniciar o git no diretorio:
+git.init
