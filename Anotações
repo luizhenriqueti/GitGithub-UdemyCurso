@@ -47,3 +47,5 @@ soft (vai pegar as minhas modificações e vai so matar o commit que eu fiz mas 
 mixed (vai matar o commit tambem e vai voltar os arquivos para antes do stage)
 
 hard (simplesmente vai ignorar a existencia do commit e tudo que foi feito nele)
+
+o git reset altera o historico do commit deve ser usado com muito cuidado.

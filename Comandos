@@ -1,15 +1,25 @@
-como configurar o git:
+CONFIGURAR O GIT:
 (git config --global user.name "nome")
 (git config --global user.email email@mail.com)
 
-pegar informações do git:
+INFORMAÇÕES DO GIT:
 git config user.name(so nome)
 git config user.email(so email)
 git config --list(tudo)
 git status(mostra o branch,mostra o status do arquivos)
 
-iniciar o git no diretorio:
+INICIAR UM ARQUIVO GIT:
 git.init
 
-comite:
+COMMIT:
 git commit -m "mensagem"
+
+DESFAZER:
+git reset --soft hash(vai pegar as minhas modificações e vai so matar o commit que eu fiz mas o arquivo 		 	ja vai estar em stage(ja esta add) prontinho para ser commitado denovo)
+
+git reset --mixed hash(vai matar o commit tambem e vai voltar os arquivos para antes do stage(os arquivos 				não estaram no add) )
+
+git reset --hard hash(simplesmente vai ignorar a existencia do commit e tudo que foi feito nele(perde 				tudo que foi feito ate um commit antes) )
+
+LOGS:
+git log
